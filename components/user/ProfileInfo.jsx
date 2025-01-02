@@ -22,9 +22,9 @@ const ProfileInfo = async () => {
 
       <div>
         <h3 className="text-2xl font-semibold lg:text-[28px]">
-          {session.user.name}
+          {session?.user?.name}
         </h3>
-        <p className="leading-[231%] lg:text-lg">{session.user.name}</p>
+        <p className="leading-[231%] lg:text-lg">{session?.user?.email}</p>
       </div>
 
       <div className="w-3/4 border-b border-[#a4a4a4] py-6 lg:py-4"></div>
