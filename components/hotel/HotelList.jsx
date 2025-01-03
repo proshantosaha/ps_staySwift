@@ -6,12 +6,31 @@ const HotelList = async () => {
   console.log(allHotels);
 
   return (
+    // <div className="col-span-9">
+    //   <div className="space-y-4">
+
+    //     <HotelCard />
+    //   </div>
+    // </div>
+
     <div className="col-span-9">
       <div className="space-y-4">
-        <HotelCard />
+        {allHotels?.map((hotel) => {
+          <HotelCard hotelInfo={hotel} key={hotel.id} />;
+        })}
       </div>
     </div>
   );
 };
 
 export default HotelList;
+
+{
+  /* <div className="col-span-9">
+  <div className="space-y-4">
+    {allHotels.map((hotel) => {
+      <HotelCard hotelInfo={hotel} key={hotel.id} />;
+    })}
+  </div>
+</div>; */
+}
