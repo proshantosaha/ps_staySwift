@@ -3,7 +3,7 @@ import HotelCard from "./HotelCard";
 
 const HotelList = async () => {
   const allHotels = await getAllHotels();
-  console.log(allHotels);
+  // console.log(allHotels);
 
   return (
     // <div className="col-span-9">
@@ -15,9 +15,9 @@ const HotelList = async () => {
 
     <div className="col-span-9">
       <div className="space-y-4">
-        {allHotels?.map((hotel) => {
-          <HotelCard hotelInfo={hotel} key={hotel.id} />;
-        })}
+        {allHotels?.map((hotel) => (
+          <HotelCard hotelInfo={hotel} key={hotel.id} />
+        ))}
       </div>
     </div>
   );
