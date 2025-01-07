@@ -41,6 +41,39 @@
     ]
   },
   {
+    "_id": { "$oid": "66263526f50c2e548501f411" },
+    "name": "Lagoon View Maldives",
+    "address1": "Rangali, Alifu Dhaalu Atoll",
+    "airportCode": "MLE",
+    "city": "Alifu Dhaalu Atoll",
+    "countryCode": "MV",
+    "highRate": 1200,
+    "location": {
+      "latitude": 3.7455,
+      "longitude": 72.8393
+    },
+    "locationDescription": "Located on a serene island in the Alifu Dhaalu Atoll, surrounded by tranquil lagoons and vibrant coral reefs.",
+    "lowRate": 600,
+    "postalCode": "N/A",
+    "propertyCategory": 4,
+    "shortDescription": "An affordable boutique resort offering stunning lagoon views, comfortable accommodations, and a wide range of water activities. Perfect for budget-conscious travelers looking for a true Maldivian experience.",
+    "stateProvinceCode": "AL",
+    "thumbNailUrl": "https://res.cloudinary.com/proshanto/image/upload/v1736182364/Lagoon_View_Maldives_k3z6go.jpg?im_w=1200",
+    "gallery": [
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182363/Lagoon_View_Maldives3_g1mn0k.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182364/Lagoon_View_Maldives2_rk10af.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182365/Lagoon_View_Maldives4_q2aknh.jpg?im_w=480",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182365/Lagoon_View_Maldives5_kuvnmu.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182364/Lagoon_View_Maldives_k3z6go.jpg?im_w=720"
+    ],
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit nobis saepe enim iusto quod possimus cupiditate reiciendis necessitatibus, similique consequatur quibusdam nulla cumque quisquam facilis?\nRecusandae assumenda, quam quaerat voluptas aut vel dignissimos et. Itaque voluptate cum, quidem ipsam autem eaque quo possimus dolorem nisi dolore commodi. Rem, vero labore dolorum obcaecati sequi corporis magni quos hic, delectus velit, inventore tenetur. Voluptatibus, ipsum, aspernatur ducimus sint odit in mollitia nulla sunt possimus deleniti dolore error excepturi, distinctio delectus recusandae. Fugit, explicabo tenetur soluta quidem maxime quod autem eius et? Assumenda velit numquam facilis recusandae. Modi asperiores voluptatum iusto voluptates ab optio! Quisquam porro architecto deleniti quod. Quae reiciendis veniam dignissimos accusantium cumque temporibus? Inventore facere dolorem obcaecati! A obcaecati praesentium explicabo ipsa ratione ducimus ea porro optio, iste et, nemo, accusamus consectetur dolorem eius velit molestiae. Dolor totam pariatur iusto a beatae. Unde ullam iste alias illum temporibus possimus totam placeat? Laboriosam ratione reiciendis, ex atque ipsa eligendi ad nam ducimus cum ea, nihil natus non iure reprehenderit eum soluta voluptate corrupti\n\nnecessitatibus totam minus dolore repudiandae libero! Labore eius a sint quos soluta quae libero delectus sequi eum rem, accusamus dolor amet earum! Animi tempora reiciendis nostrum hic assumenda, similique doloribus libero nesciunt minima earum aperiam qui quas maiores magnam temporibus fugiat molestias? Labore tenetur ad odio repudiandae commodi doloremque ea fuga quaerat vel nam deserunt similique facere totam dolorum deleniti itaque placeat, consequuntur culpa laudantium animi perspiciatis obcaecati? Laborum impedit harum dolore cumque officia dolores vitae sequi.",
+    "amenities": [
+      {
+        "$oid": "66271646c2cac047ced8fe30"
+      }
+    ]
+  },
+  {
     "_id": { "$oid": "66263526f50c2e548501f408" },
     "name": "Desert Drop Resort",
     "address1": "Sam Sand Dunes, Jaisalmer",
@@ -57,7 +90,7 @@
     "postalCode": "345001",
     "propertyCategory": 4,
     "shortDescription": "A luxury desert resort offering traditional Rajasthani hospitality, camel safaris, and stunning sunset views over the sand dunes. Ideal for a unique desert experience.",
-    "stateProvinceCode": "RJ", 
+    "stateProvinceCode": "RJ",
     "thumbNailUrl": "https://res.cloudinary.com/proshanto/image/upload/v1736180096/desert_drop_resort_vaml5t.jpg?im_w=1200",
     "gallery": [
       "https://res.cloudinary.com/proshanto/image/upload/v1736180096/desert_drop_resort4_derglb.jpg?im_w=240",
@@ -72,7 +105,6 @@
         "$oid": "66271646c2cac047ced8fe30"
       }
     ]
-
   },
   {
     "_id": { "$oid": "66263526f50c2e548501f321" },
@@ -232,6 +264,72 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-1133364402111191988/original/385a068b-0a94-4c22-b0d7-10badbea698c.jpeg?im_w=240"
     ],
     "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit nobis saepe enim iusto quod possimus cupiditate reiciendis necessitatibus, similique consequatur quibusdam nulla cumque quisquam facilis?\n\nRecusandae assumenda, quam quaerat voluptas aut vel dignissimos et. Itaque voluptate cum, quidem ipsam autem eaque quo possimus dolorem nisi dolore commodi. Rem, vero labore dolorum obcaecati sequi corporis magni quos hic, delectus velit, inventore tenetur. Voluptatibus, ipsum, aspernatur ducimus sint odit in mollitia nulla sunt possimus deleniti dolore error excepturi, distinctio delectus recusandae. Fugit, explicabo tenetur soluta quidem maxime quod autem eius et? Assumenda velit numquam facilis recusandae. Modi asperiores voluptatum iusto voluptates ab optio! Quisquam porro architecto deleniti quod. Quae reiciendis veniam dignissimos accusantium cumque temporibus? Inventore facere dolorem obcaecati! A obcaecati praesentium explicabo ipsa ratione ducimus ea porro optio, iste et, nemo, accusamus consectetur dolorem eius velit molestiae. Dolor totam pariatur iusto a beatae. Unde ullam iste alias illum temporibus possimus totam placeat? Laboriosam ratione reiciendis, ex atque ipsa eligendi ad nam ducimus cum ea, nihil natus non iure reprehenderit eum soluta voluptate corrupti\n\nnecessitatibus totam minus dolore repudiandae libero! Labore eius a sint quos soluta quae libero delectus sequi eum rem, accusamus dolor amet earum! Animi tempora reiciendis nostrum hic assumenda, similique doloribus libero nesciunt minima earum aperiam qui quas maiores magnam temporibus fugiat molestias? Labore tenetur ad odio repudiandae commodi doloremque ea fuga quaerat vel nam deserunt similique facere totam dolorum deleniti itaque placeat, consequuntur culpa laudantium animi perspiciatis obcaecati? Laborum impedit harum dolore cumque officia dolores vitae sequi.",
+    "amenities": [
+      {
+        "$oid": "66271646c2cac047ced8fe30"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "66263526f50c2e548501f410" },
+    "name": "Villa Park, Maldives",
+    "address1": "South Ari Atoll",
+    "airportCode": "MLE",
+    "city": "South Ari Atoll",
+    "countryCode": "MV",
+    "highRate": 1800,
+    "location": {
+      "latitude": 3.4895,
+      "longitude": 72.8317
+    },
+    "locationDescription": "Located in the stunning South Ari Atoll, surrounded by vibrant coral reefs and azure waters.",
+    "lowRate": 900,
+    "postalCode": "N/A",
+    "propertyCategory": 5,
+    "shortDescription": "A luxurious tropical retreat offering water villas, beachfront bungalows, gourmet dining, and world-class marine life exploration. Perfect for relaxation and adventure.",
+    "stateProvinceCode": "ARI",
+    "thumbNailUrl": "https://res.cloudinary.com/proshanto/image/upload/v1736182918/Villa_Park_Maldives_b80zvn.jpg?im_w=1200",
+    "gallery": [
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182918/Villa_Park_Maldives2_oqpi19.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182918/Villa_Park_Maldives4_ncj2rw.avif?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182918/Villa_Park_Maldives_b80zvn.jpg?im_w=480",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736183047/Villa_Park_Maldives5_ri244q.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736182918/Villa_Park_Maldives3_d5ayqv.jpg?im_w=720"
+    ],
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit nobis saepe enim iusto quod possimus cupiditate reiciendis necessitatibus, similique consequatur quibusdam nulla cumque quisquam facilis?\nRecusandae assumenda, quam quaerat voluptas aut vel dignissimos et. Itaque voluptate cum, quidem ipsam autem eaque quo possimus dolorem nisi dolore commodi. Rem, vero labore dolorum obcaecati sequi corporis magni quos hic, delectus velit, inventore tenetur. Voluptatibus, ipsum, aspernatur ducimus sint odit in mollitia nulla sunt possimus deleniti dolore error excepturi, distinctio delectus recusandae. Fugit, explicabo tenetur soluta quidem maxime quod autem eius et? Assumenda velit numquam facilis recusandae. Modi asperiores voluptatum iusto voluptates ab optio! Quisquam porro architecto deleniti quod. Quae reiciendis veniam dignissimos accusantium cumque temporibus? Inventore facere dolorem obcaecati! A obcaecati praesentium explicabo ipsa ratione ducimus ea porro optio, iste et, nemo, accusamus consectetur dolorem eius velit molestiae. Dolor totam pariatur iusto a beatae. Unde ullam iste alias illum temporibus possimus totam placeat? Laboriosam ratione reiciendis, ex atque ipsa eligendi ad nam ducimus cum ea, nihil natus non iure reprehenderit eum soluta voluptate corrupti\n\nnecessitatibus totam minus dolore repudiandae libero! Labore eius a sint quos soluta quae libero delectus sequi eum rem, accusamus dolor amet earum! Animi tempora reiciendis nostrum hic assumenda, similique doloribus libero nesciunt minima earum aperiam qui quas maiores magnam temporibus fugiat molestias? Labore tenetur ad odio repudiandae commodi doloremque ea fuga quaerat vel nam deserunt similique facere totam dolorum deleniti itaque placeat, consequuntur culpa laudantium animi perspiciatis obcaecati? Laborum impedit harum dolore cumque officia dolores vitae sequi.",
+    "amenities": [
+      {
+        "$oid": "66271646c2cac047ced8fe30"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "66263526f50c2e548501f409" },
+    "name": "The Residence Maldives at Falhumaafushi",
+    "address1": "Falhumaafushi, Gaafu Alifu Atoll",
+    "airportCode": "GAN",
+    "city": "Gaafu Alifu Atoll",
+    "countryCode": "MV",
+    "highRate": 2000,
+    "location": {
+      "latitude": -0.4603,
+      "longitude": 73.4653
+    },
+    "locationDescription": "Nestled in the pristine Gaafu Alifu Atoll, surrounded by turquoise waters and coral reefs.",
+    "lowRate": 1200,
+    "postalCode": "N/A",
+    "propertyCategory": 5,
+    "shortDescription": "A luxury overwater and beachfront villa resort offering unparalleled privacy, stunning ocean views, world-class dining, and diving experiences in the Maldives.",
+    "stateProvinceCode": "GA",
+    "thumbNailUrl": "https://res.cloudinary.com/proshanto/image/upload/v1736183464/The_Residence_Maldives_at_Falhumaafushi_ns4i7q.webp?im_w=1200",
+    "gallery": [
+      "https://res.cloudinary.com/proshanto/image/upload/v1736183464/The_Residence_Maldives_at_Falhumaafushi3_v2a8zx.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736183463/The_Residence_Maldives_at_Falhumaafushi2_ryhsjw.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736183464/The_Residence_Maldives_at_Falhumaafushi_ns4i7q.webp?im_w=480",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736183463/The_Residence_Maldives_at_Falhumaafushi4_scyccm.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736183753/the_residence_maldives_at_falhumaafushi6_rebxvl.avif?im_w=720"
+    ],
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit nobis saepe enim iusto quod possimus cupiditate reiciendis necessitatibus, similique consequatur quibusdam nulla cumque quisquam facilis?\nRecusandae assumenda, quam quaerat voluptas aut vel dignissimos et. Itaque voluptate cum, quidem ipsam autem eaque quo possimus dolorem nisi dolore commodi. Rem, vero labore dolorum obcaecati sequi corporis magni quos hic, delectus velit, inventore tenetur. Voluptatibus, ipsum, aspernatur ducimus sint odit in mollitia nulla sunt possimus deleniti dolore error excepturi, distinctio delectus recusandae. Fugit, explicabo tenetur soluta quidem maxime quod autem eius et? Assumenda velit numquam facilis recusandae. Modi asperiores voluptatum iusto voluptates ab optio! Quisquam porro architecto deleniti quod. Quae reiciendis veniam dignissimos accusantium cumque temporibus? Inventore facere dolorem obcaecati! A obcaecati praesentium explicabo ipsa ratione ducimus ea porro optio, iste et, nemo, accusamus consectetur dolorem eius velit molestiae. Dolor totam pariatur iusto a beatae. Unde ullam iste alias illum temporibus possimus totam placeat? Laboriosam ratione reiciendis, ex atque ipsa eligendi ad nam ducimus cum ea, nihil natus non iure reprehenderit eum soluta voluptate corrupti\n\nnecessitatibus totam minus dolore repudiandae libero! Labore eius a sint quos soluta quae libero delectus sequi eum rem, accusamus dolor amet earum! Animi tempora reiciendis nostrum hic assumenda, similique doloribus libero nesciunt minima earum aperiam qui quas maiores magnam temporibus fugiat molestias? Labore tenetur ad odio repudiandae commodi doloremque ea fuga quaerat vel nam deserunt similique facere totam dolorum deleniti itaque placeat, consequuntur culpa laudantium animi perspiciatis obcaecati? Laborum impedit harum dolore cumque officia dolores vitae sequi.",
     "amenities": [
       {
         "$oid": "66271646c2cac047ced8fe30"
@@ -613,6 +711,39 @@
     "amenities": []
   },
   {
+    "_id": { "$oid": "66263526f50c2e548501f414" },
+    "name": "AYANA Resort Bali",
+    "address1": "Jalan Karang Mas Sejahtera, Jimbaran",
+    "airportCode": "DPS",
+    "city": "Jimbaran",
+    "countryCode": "ID",
+    "highRate": 1500,
+    "location": {
+      "latitude": -8.7422,
+      "longitude": 115.1744
+    },
+    "locationDescription": "Nestled on the cliffs of Jimbaran Bay, offering stunning views of the Indian Ocean and luxury facilities.",
+    "lowRate": 500,
+    "postalCode": "80364",
+    "propertyCategory": 5,
+    "shortDescription": "A luxury oceanfront resort with expansive grounds, offering world-class amenities including private beach access, multiple dining options, and an extensive spa. Perfect for honeymooners and luxury seekers.",
+    "stateProvinceCode": "BA",
+    "thumbNailUrl": "https://res.cloudinary.com/proshanto/image/upload/v1736184285/AYANA_Resort_Bali_csqitl.jpg?im_w=1200",
+    "gallery": [
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184285/AYANA_Resort_Bali4_a7oy0k.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184284/AYANA_Resort_Bali5_udp8s4.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184285/AYANA_Resort_Bali_csqitl.jpg?im_w=480",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184446/AYANA-Resort-Spa-Bali-holiday-package6_xazoxa.webp?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184283/AYANA_Resort_Bali3_n1qjea.jpg?im_w=720"
+    ],
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit nobis saepe enim iusto quod possimus cupiditate reiciendis necessitatibus, similique consequatur quibusdam nulla cumque quisquam facilis?\nRecusandae assumenda, quam quaerat voluptas aut vel dignissimos et. Itaque voluptate cum, quidem ipsam autem eaque quo possimus dolorem nisi dolore commodi. Rem, vero labore dolorum obcaecati sequi corporis magni quos hic, delectus velit, inventore tenetur. Voluptatibus, ipsum, aspernatur ducimus sint odit in mollitia nulla sunt possimus deleniti dolore error excepturi, distinctio delectus recusandae. Fugit, explicabo tenetur soluta quidem maxime quod autem eius et? Assumenda velit numquam facilis recusandae. Modi asperiores voluptatum iusto voluptates ab optio! Quisquam porro architecto deleniti quod. Quae reiciendis veniam dignissimos accusantium cumque temporibus? Inventore facere dolorem obcaecati! A obcaecati praesentium explicabo ipsa ratione ducimus ea porro optio, iste et, nemo, accusamus consectetur dolorem eius velit molestiae. Dolor totam pariatur iusto a beatae. Unde ullam iste alias illum temporibus possimus totam placeat? Laboriosam ratione reiciendis, ex atque ipsa eligendi ad nam ducimus cum ea, nihil natus non iure reprehenderit eum soluta voluptate corrupti\n\nnecessitatibus totam minus dolore repudiandae libero! Labore eius a sint quos soluta quae libero delectus sequi eum rem, accusamus dolor amet earum! Animi tempora reiciendis nostrum hic assumenda, similique doloribus libero nesciunt minima earum aperiam qui quas maiores magnam temporibus fugiat molestias? Labore tenetur ad odio repudiandae commodi doloremque ea fuga quaerat vel nam deserunt similique facere totam dolorum deleniti itaque placeat, consequuntur culpa laudantium animi perspiciatis obcaecati? Laborum impedit harum dolore cumque officia dolores vitae sequi.",
+    "amenities": [
+      {
+        "$oid": "66271646c2cac047ced8fe30"
+      }
+    ]
+  },
+  {
     "_id": {
       "$oid": "66263526f50c2e548501f293"
     },
@@ -706,6 +837,39 @@
     "amenities": []
   },
   {
+    "_id": { "$oid": "66263526f50c2e548501f413" },
+    "name": "Sumberkima Hill Retreat",
+    "address1": "Sumberkima, Seririt, North Bali",
+    "airportCode": "DPS",
+    "city": "Seririt",
+    "countryCode": "ID",
+    "highRate": 700,
+    "location": {
+      "latitude": -8.1524,
+      "longitude": 114.871
+    },
+    "locationDescription": "Located in the hills of North Bali, with panoramic views of the Bali Sea and surrounded by tropical forests and rice fields.",
+    "lowRate": 300,
+    "postalCode": "81153",
+    "propertyCategory": 4,
+    "shortDescription": "An intimate and tranquil retreat offering luxury villas with private pools, yoga, and spa services. Perfect for nature lovers, wellness enthusiasts, and those seeking seclusion in Bali.",
+    "stateProvinceCode": "BA",
+    "thumbNailUrl": "https://res.cloudinary.com/proshanto/image/upload/v1736184714/Sumberkima_Hill_Retreat_tofxym.avif?im_w=1200",
+    "gallery": [
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184712/Sumberkima_Hill_Retreat3_aloe4f.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184714/Sumberkima_Hill_Retreat4_ceraid.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184714/Sumberkima_Hill_Retreat_tofxym.avif?im_w=480",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184713/Sumberkima_Hill_Retreat2_nhm3df.avif?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736184715/Sumberkima_Hill_Retreat5_khmqhe.avif?im_w=720"
+    ],
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit nobis saepe enim iusto quod possimus cupiditate reiciendis necessitatibus, similique consequatur quibusdam nulla cumque quisquam facilis?\nRecusandae assumenda, quam quaerat voluptas aut vel dignissimos et. Itaque voluptate cum, quidem ipsam autem eaque quo possimus dolorem nisi dolore commodi. Rem, vero labore dolorum obcaecati sequi corporis magni quos hic, delectus velit, inventore tenetur. Voluptatibus, ipsum, aspernatur ducimus sint odit in mollitia nulla sunt possimus deleniti dolore error excepturi, distinctio delectus recusandae. Fugit, explicabo tenetur soluta quidem maxime quod autem eius et? Assumenda velit numquam facilis recusandae. Modi asperiores voluptatum iusto voluptates ab optio! Quisquam porro architecto deleniti quod. Quae reiciendis veniam dignissimos accusantium cumque temporibus? Inventore facere dolorem obcaecati! A obcaecati praesentium explicabo ipsa ratione ducimus ea porro optio, iste et, nemo, accusamus consectetur dolorem eius velit molestiae. Dolor totam pariatur iusto a beatae. Unde ullam iste alias illum temporibus possimus totam placeat? Laboriosam ratione reiciendis, ex atque ipsa eligendi ad nam ducimus cum ea, nihil natus non iure reprehenderit eum soluta voluptate corrupti\n\nnecessitatibus totam minus dolore repudiandae libero! Labore eius a sint quos soluta quae libero delectus sequi eum rem, accusamus dolor amet earum! Animi tempora reiciendis nostrum hic assumenda, similique doloribus libero nesciunt minima earum aperiam qui quas maiores magnam temporibus fugiat molestias? Labore tenetur ad odio repudiandae commodi doloremque ea fuga quaerat vel nam deserunt similique facere totam dolorum deleniti itaque placeat, consequuntur culpa laudantium animi perspiciatis obcaecati? Laborum impedit harum dolore cumque officia dolores vitae sequi.",
+    "amenities": [
+      {
+        "$oid": "66271646c2cac047ced8fe30"
+      }
+    ]
+  },
+  {
     "_id": {
       "$oid": "66263526f50c2e548501f296"
     },
@@ -766,6 +930,39 @@
     ],
     "overview": "https://a0.muscache.com/im/pictures/miso/Hosting-1136126181496296621/original/671a5574-789b-4a99-b6fe-6424e1d58999.jpeg?im_w=1200",
     "amenities": []
+  },
+  {
+    "_id": { "$oid": "66263526f50c2e548501f412" },
+    "name": "The Kayon Resort Ubud",
+    "address1": "Banjar Kepitu, Desa Kendran, Ubud",
+    "airportCode": "DPS",
+    "city": "Ubud",
+    "countryCode": "ID",
+    "highRate": 400,
+    "location": {
+      "latitude": -8.5083,
+      "longitude": 115.287
+    },
+    "locationDescription": "Located amidst lush tropical forests and overlooking the Petanu River in Ubud, Bali.",
+    "lowRate": 250,
+    "postalCode": "80571",
+    "propertyCategory": 5,
+    "shortDescription": "A serene boutique resort designed for ultimate relaxation, featuring luxurious rooms, infinity pools, and a jungle setting. Perfect for a romantic getaway or a tranquil retreat.",
+    "stateProvinceCode": "BA",
+    "thumbNailUrl": "https://res.cloudinary.com/proshanto/image/upload/v1736185180/TheKayonResortUbud_n9cphd.jpg?im_w=1200",
+    "gallery": [
+      "https://res.cloudinary.com/proshanto/image/upload/v1736185180/TheKayonResortUbud1_rrc5gh.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736185180/TheKayonResortUbud4_qhazvt.avif?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736185180/TheKayonResortUbud_n9cphd.jpg?im_w=480",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736185180/TheKayonResortUbud2_uvfikf.jpg?im_w=240",
+      "https://res.cloudinary.com/proshanto/image/upload/v1736185180/TheKayonResortUbud5_jozv8o.webp?im_w=720"
+    ],
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit nobis saepe enim iusto quod possimus cupiditate reiciendis necessitatibus, similique consequatur quibusdam nulla cumque quisquam facilis?\nRecusandae assumenda, quam quaerat voluptas aut vel dignissimos et. Itaque voluptate cum, quidem ipsam autem eaque quo possimus dolorem nisi dolore commodi. Rem, vero labore dolorum obcaecati sequi corporis magni quos hic, delectus velit, inventore tenetur. Voluptatibus, ipsum, aspernatur ducimus sint odit in mollitia nulla sunt possimus deleniti dolore error excepturi, distinctio delectus recusandae. Fugit, explicabo tenetur soluta quidem maxime quod autem eius et? Assumenda velit numquam facilis recusandae. Modi asperiores voluptatum iusto voluptates ab optio! Quisquam porro architecto deleniti quod. Quae reiciendis veniam dignissimos accusantium cumque temporibus? Inventore facere dolorem obcaecati! A obcaecati praesentium explicabo ipsa ratione ducimus ea porro optio, iste et, nemo, accusamus consectetur dolorem eius velit molestiae. Dolor totam pariatur iusto a beatae. Unde ullam iste alias illum temporibus possimus totam placeat? Laboriosam ratione reiciendis, ex atque ipsa eligendi ad nam ducimus cum ea, nihil natus non iure reprehenderit eum soluta voluptate corrupti\n\nnecessitatibus totam minus dolore repudiandae libero! Labore eius a sint quos soluta quae libero delectus sequi eum rem, accusamus dolor amet earum! Animi tempora reiciendis nostrum hic assumenda, similique doloribus libero nesciunt minima earum aperiam qui quas maiores magnam temporibus fugiat molestias? Labore tenetur ad odio repudiandae commodi doloremque ea fuga quaerat vel nam deserunt similique facere totam dolorum deleniti itaque placeat, consequuntur culpa laudantium animi perspiciatis obcaecati? Laborum impedit harum dolore cumque officia dolores vitae sequi.",
+    "amenities": [
+      {
+        "$oid": "66271646c2cac047ced8fe30"
+      }
+    ]
   },
   {
     "_id": {
@@ -1045,9 +1242,4 @@
     "overview": "https://a0.muscache.com/im/pictures/miso/Hosting-656308281676515741/original/de2af6d2-d825-4626-b12e-e70917ca8d30.jpeg?im_w=1200",
     "amenities": []
   }
-
-
-
- 
-
 ]

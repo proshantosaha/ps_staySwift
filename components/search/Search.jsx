@@ -1,4 +1,9 @@
-const Search = ({fromList}) => {
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+
+const Search = ({ fromList }) => {
+  const searchParams = useSearchParams();
+  const pathName = usePathname();
+  const { replace } = useRouter();
   return (
     <>
       <div className="lg:max-h-[250px] mt-6">
@@ -32,7 +37,9 @@ const Search = ({fromList}) => {
         </div>
       </div>
 
-      <button className="search-btn">🔍️ {fromList ? "Modify Search": "Search"}</button>
+      <button className="search-btn">
+        🔍️ {fromList ? "Modify Search" : "Search"}
+      </button>
     </>
   );
 };
