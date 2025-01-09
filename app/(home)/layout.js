@@ -22,10 +22,9 @@ export default async function RootLayout({ children }) {
   await dbConnect();
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
         <Navbar sideMenu={true} />
+
         <main> {children}</main>
       </body>
     </html>
