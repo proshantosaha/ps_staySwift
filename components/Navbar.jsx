@@ -10,10 +10,10 @@ const Navbar = async ({ sideMenu }) => {
       <div className="max-w-7xl flex mx-auto justify-between px-4 py-4 w-full">
         <Link href="/">
           <Image
-            src="/pswhite.png"
-            alt="Pswhite Logo"
-            width={160}
-            height={160}
+            src="/psblack.png"
+            alt="Psblack Logo"
+            width={150}
+            height={150}
           />
         </Link>
 
