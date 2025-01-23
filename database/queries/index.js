@@ -6,9 +6,11 @@ import {
   replaceMongoIdInObject,
 } from "@/utils/data_util";
 
-export async function getAllHotels() {
-  const hotels = await hotelModel
-    .find()
+export async function getAllHotels(destination, checkin, checkout) {
+  const regex = new RegExp(destination, "i");
+
+  const hotelsByDestination = await hotelModel
+    .find({ city: { $regex: regex } })
     .select([
       "thumbNailUrl",
       "name",
@@ -18,9 +20,15 @@ export async function getAllHotels() {
       "propertyCategory",
     ])
     .lean();
+
+  let allHotels = hotelsByDestination;
+
+  if (checkin && checkout) {
+  }
   return replaceMongoIdInArray(hotels);
 }
 
+async function findBooking(hotelId, checkin, checkout) {}
 export async function getHotelById(hotelId) {
   const hotel = await hotelModel.findById(hotelId).lean();
 
