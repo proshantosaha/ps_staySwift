@@ -8,6 +8,7 @@ import {
 } from "@/utils/data_util";
 
 import { isDateInbetween } from "@/utils/data_util";
+
 export async function getAllHotels(destination, checkin, checkout) {
   const regex = new RegExp(destination, "i");
 
@@ -53,7 +54,11 @@ async function findBooking(hotelId, checkin, checkout) {
       isDateInbetween(checkout, match.checkin, match.checkout)
     );
   });
+  console.log(found);
+
+  return found;
 }
+
 export async function getHotelById(hotelId) {
   const hotel = await hotelModel.findById(hotelId).lean();
 
@@ -67,7 +72,7 @@ export async function getRatingsForAHotel(hotelId) {
 }
 
 export async function getReviewsForAHotel(hotelId) {
-  const ratings = await reviewModel.find({ hotelId: hotelId }).lean();
+  const reviews = await reviewModel.find({ hotelId: hotelId }).lean();
 
-  return replaceMongoIdInArray(ratings);
+  return replaceMongoIdInArray(reviews);
 }

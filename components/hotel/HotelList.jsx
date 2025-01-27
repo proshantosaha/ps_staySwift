@@ -16,7 +16,12 @@ const HotelList = async ({ destination, checkin, checkout }) => {
     <div className="col-span-9">
       <div className="space-y-4">
         {allHotels?.map((hotel) => (
-          <HotelCard hotelInfo={hotel} key={hotel.id} />
+          <HotelCard
+            hotelInfo={hotel}
+            key={hotel.id}
+            checkin={checkin}
+            checkout={checkout}
+          />
         ))}
       </div>
     </div>

@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Search = ({ fromList, destination, checkin, checkout }) => {
   const searchParams = useSearchParams();
-  const pathName = usePathname();
+  const pathname = usePathname();
   const { replace } = useRouter();
 
   const [searchTerm, setSearchTerm] = useState({
@@ -34,17 +34,17 @@ const Search = ({ fromList, destination, checkin, checkout }) => {
   const doSearch = (event) => {
     const params = new URLSearchParams(searchParams);
 
-    params.set("destination", searchTerm?.destination);
+    params.set("destination", searchTerm?.destination || "all");
 
     if (searchTerm?.checkin && searchTerm?.checkout) {
       params.set("checkin", searchTerm?.checkin);
       params.set("checkout", searchTerm?.checkout);
     }
 
-    if (pathName.includes("hotels")) {
-      replace(`${pathName}?${params.toString()}`);
+    if (pathname.includes("hotels")) {
+      replace(`${pathname}?${params.toString()}`);
     } else {
-      replace(`${pathName}hotels?${params.toString()}`);
+      replace(`${pathname}hotels?${params.toString()}`);
     }
   };
   return (

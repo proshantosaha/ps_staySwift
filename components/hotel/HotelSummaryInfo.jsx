@@ -16,6 +16,7 @@ const HotelSummaryInfo = ({ fromListPage, info }) => {
         <div className="flex gap-2 items-center my-4">
           <HotelRating id={info?.id} />
           <HotelReviews id={info?.id} />
+          {info?.isBooked && <span>Sold out</span>}
         </div>
 
         <div>
