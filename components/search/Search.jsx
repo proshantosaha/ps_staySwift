@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
 const Search = ({ fromList, destination, checkin, checkout }) => {
@@ -9,7 +9,7 @@ const Search = ({ fromList, destination, checkin, checkout }) => {
   const { replace } = useRouter();
 
   const [searchTerm, setSearchTerm] = useState({
-    destination: destination || "Bali",
+    destination: destination || "Puglia",
     checkin: checkin,
     checkout: checkout,
   });
@@ -19,6 +19,7 @@ const Search = ({ fromList, destination, checkin, checkout }) => {
   const handleInputs = (e) => {
     const name = e.target.name;
     const value = e.target.value;
+
     const state = { ...searchTerm, [name]: value };
 
     if (
@@ -31,11 +32,10 @@ const Search = ({ fromList, destination, checkin, checkout }) => {
     setSearchTerm(state);
   };
 
-  const doSearch = (event) => {
+  function doSearch(event) {
     const params = new URLSearchParams(searchParams);
 
     params.set("destination", searchTerm?.destination || "all");
-
     if (searchTerm?.checkin && searchTerm?.checkout) {
       params.set("checkin", searchTerm?.checkin);
       params.set("checkout", searchTerm?.checkout);
@@ -46,7 +46,8 @@ const Search = ({ fromList, destination, checkin, checkout }) => {
     } else {
       replace(`${pathname}hotels?${params.toString()}`);
     }
-  };
+  }
+
   return (
     <>
       <div className="lg:max-h-[250px] mt-6">
@@ -60,8 +61,14 @@ const Search = ({ fromList, destination, checkin, checkout }) => {
                 defaultValue={searchTerm.destination}
                 onChange={handleInputs}
               >
+                <option value="Puglia">Puglia</option>
+                <option value="Catania">Catania</option>
+                <option value="Palermo">Palermo</option>
+                <option value="Frejus">Frejus</option>
+                <option value="Paris">Paris</option>
+
                 <option value="Bali">Bali</option>
-                <option value="CoxsBazar">Cox's Bazar</option>
+                <option value="CoxsBazar">CoxsBazar</option>
                 <option value="Sylhet">Sylhet</option>
                 <option value="SaintMartin">Saint Martin</option>
                 <option value="Maldives">Maldives</option>
@@ -89,15 +96,15 @@ const Search = ({ fromList, destination, checkin, checkout }) => {
                 type="date"
                 name="checkout"
                 id="checkout"
-                onChange={handleInputs}
                 value={searchTerm.checkout}
+                onChange={handleInputs}
               />
             </h4>
           </div>
         </div>
       </div>
 
-      <button className="search-btn" disabled={!allowSearch} onClick={doSearch}>
+      <button disabled={!allowSearch} className="search-btn" onClick={doSearch}>
         🔍️ {fromList ? "Modify Search" : "Search"}
       </button>
     </>

@@ -74,4 +74,8 @@
   button:disabled{
     @apply bg-gray-500 cursor-default
   }
+
+  .btn-disabled {
+    @apply bg-gray-500 px-8 py-2 rounded-md block text-white font-bold shadow-lg cursor-default;
+  }
 }

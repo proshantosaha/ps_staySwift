@@ -7,7 +7,7 @@ const HotelDetailsPage = async ({
   params: { id },
   searchParams: { checkin, checkout },
 }) => {
-  const hotelInfo = await getHotelById(id);
+  const hotelInfo = await getHotelById(id, checkin, checkout);
 
   return (
     <>

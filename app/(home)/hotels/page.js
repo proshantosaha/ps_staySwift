@@ -10,10 +10,10 @@ const HotelListPage = ({
       <section className="bg-[url('/hero-bg.jpg')] bg-cover bg-no-repeat bg-center pt-[100px] pb-[60px]">
         <div className="container items-center py-12 ">
           <Search
+            fromList={true}
             destination={destination}
             checkin={checkin}
             checkout={checkout}
-            fromList={true}
           />
         </div>
       </section>
